@@ -1,0 +1,27 @@
+//var colors
+$yellow: #fca211;
+
+//var proportions
+$container_width: 1100px;
+$font-size: 16px;
+$footer_height: 92px;
+
+//plugins
+@import "../bower/normalize-css/normalize.css";
+@import "../bower/slick-carousel/slick/slick.css";
+@import "../bower/slick-carousel/slick/slick-theme.scss";
+@import "_misc/plugins";
+
+//adjustments
+@import "_misc/mixins";
+@import "_misc/adjustments";
+@import "_misc/fonts";
+
+//styles
+@import "sections/cupcake";
+@import "sections/header";
+@import "sections/taste";
+@import "sections/team";
+@import "sections/supply";
+@import "sections/faq";
+@import "sections/footer";

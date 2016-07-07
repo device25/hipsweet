@@ -1,0 +1,33 @@
+.slick-loading .slick-list {
+	background-image: url(../img/slick/ajax-loader.gif);
+}
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/slick/slick.eot');
+    src: url('../fonts/slick/slick.eot?#iefix') format('embedded-opentype'),
+    	url('../fonts/slick/slick.woff') format('woff'),
+    	url('../fonts/slick/slick.ttf') format('truetype'),
+    	url('../fonts/slick/slick.svg#slick') format('svg');
+}
+.slick-dots {
+	bottom: 11px;
+}
+.slick-dots li {
+	margin: 0 10px;
+}
+.slick-dots li button:before {
+	font-size: 10px;
+	color: #fff;
+	opacity: 1;
+	line-height: 14px;
+}
+.slick-dots li button:hover:before {
+	color: #641a00;
+}
+.slick-dots li.slick-active button:before {
+	color: $yellow;
+}

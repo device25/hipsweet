@@ -1,0 +1,180 @@
+.cupcake {
+	background: linear-gradient(to right,  #cd3438 0%,#a3161c 100%);
+	padding-top: 25px;
+	padding-bottom: 9px;
+}
+.cupcake__slide {
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	font-size: 0;
+}
+.slide__left,
+.slide__center,
+.slide__right {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.slide__left {
+	width: 12%;
+}
+.ingredients {
+	padding-top: 16px;
+	text-align: center;
+	margin-bottom: 196px;
+}
+.ingredients__icon {
+	display: block;
+	height: 40px;
+	width: 40px;
+	margin: 0 auto 15px;
+	border-radius: 50%;
+	background-color: rgba(#fff, .1);
+	background-image: url(../img/ingredients-sprite.png);
+	background-position: -1px -159px;
+	position: relative;
+	&:hover {
+		background-color: #ffaf28;
+		background-position: 0 -198px;
+		.ingredients__dropdoun-list {
+			display: block;
+		}
+	}
+}
+.ingredients__dropdoun-list {
+	display: none;
+	width: 380px;
+	background-color: rgba(#fff, .92);
+	position: absolute;
+	left: 92px;
+	transform: translateY(-30%);
+	padding: 30px;
+	text-align: left;
+	color: #575757;
+	border-radius: 20px;
+	&:before {
+		content: "";
+		height: 100%;
+		position: absolute;
+		right: 100%;
+		top: 0;
+		width: 55px;
+	}
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		border: 13px solid transparent;
+		border-top-width: 20px;
+		border-bottom-width: 20px;
+		border-right-color: rgba(#fff, 0.92);
+		right: 100%;
+		top: 31%;
+	}
+}
+.ingredients__dropdoun-item {
+	padding: 5px 0;
+}
+.ingredient__icon {
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(../img/ingredients-sprite.png);
+	width: 35px;
+	height: 28px;
+}
+.ingredient__icon_flour {
+	background-position: -7px -80px;
+}
+.ingredient__icon_eggs {
+	background-position: -8px -40px;
+}
+.ingredient__icon_sugar {
+	background-position: -8px -241px;
+}
+.ingredient__icon_butter {
+	background-position: -9px -2px;
+}
+.ingredient__icon_susu {
+	background-position: -9px -121px;
+}
+.ingredient {
+	display: inline-block;
+	width: 63%;
+}
+.date {
+	text-align: center;
+	color: rgba(#fff, .28);
+	font-family: Arial;
+	font-size: 13px;
+	line-height: 18px;
+	span {
+		font-family: malina;
+		font-size: 24px;
+		color: #fff;
+	}
+}
+.slide__center {
+	width: 49%;
+}
+.slide__img {
+	margin: auto;
+	margin-top: 18px;
+	background-position: 50%;
+    background-size: cover;
+    height: 490px;
+    width: 390px;
+    img {
+    	display: none;
+    }
+}
+.slide__background {
+    position: absolute;
+    font-family: malina;
+    font-size: 150px;
+    color: rgba(255,255,255,0.09);
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.slide__right {
+	width: 39%;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+.title {
+	color: #fff;
+	font-size: 62px;
+	font-family: malina;
+	font-weight: normal;
+	line-height: 75px;
+	margin-bottom: 23px;
+}
+.cupcake__desc {
+	font-size: 15px;
+	line-height: 21px;
+	margin-bottom: 20px;
+	word-spacing: -1px;
+}
+.cupcake__price {
+	font-family: malina;
+	font-size: 62px;
+	vertical-align: middle;
+	margin-right: 43px;
+}
+.cupcake__order {
+	display: inline-block;
+	vertical-align: sub;
+	color: #a4151c;
+	text-decoration: none;
+	background-color: $yellow;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 25px;
+	&:hover {
+		color: $yellow;
+		background-color: #641a00;
+	}
+}

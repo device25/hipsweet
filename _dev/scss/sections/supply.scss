@@ -1,0 +1,49 @@
+.supply {
+	background-image: url('../img/supply/pattern.jpg');
+	padding-top: 95px;
+	padding-bottom: 65px;
+}
+.supply__header {
+	text-align: center;
+	margin-bottom: 21px;
+}
+.title_supply {
+	color: #393939;
+	margin-bottom: 10px;
+}
+.supply__desc {
+	color: #883213;
+	padding: 0 10%;
+	a {
+		color: #393939;
+	}
+}
+.supply__list {
+	text-align: justify;
+	font-size: 0;
+	&:after {
+		content: "";
+		display: inline-block;
+		width: 100%;
+	}
+}
+.supply__item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	font-size: 16px;
+	width: 25%;
+}
+.supply__name {
+	font-family: malina;
+	color: #393939;
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 10px;
+}
+.supply__item-desc {
+	color: #ab594a;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0 9%;
+}
