@@ -3,10 +3,27 @@
 
 'use strict'
 $(document).ready(function(){
-	$('.slick').slick({
-		dots: true
-	});
+	
+// slider
+	(function () {
+		$('.slick').slick({
+			dots: true
+		});
+	})();
 
+// scroll
+	(function () {
+		$('a[href^="#"]').on('click', function () {
+			var element = $(this).attr('href');
+		    $('body').animate({
+		    	scrollTop: $(element).offset().top}, 1000
+		    );
+		    console.log(element);
+		    return false;
+		});
+	})();
+
+// tabs
 	(function () {
 		$('.team__nav-member').on('click', function (e) {
 			e.preventDefault();
@@ -26,6 +43,7 @@ $(document).ready(function(){
 		});
 	})();
 
+// accordion
 	(function () {
 		$('.question').on('click', function (e) {
 			e.preventDefault();
