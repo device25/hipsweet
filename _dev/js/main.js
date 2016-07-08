@@ -1,5 +1,6 @@
 //= ../bower/jquery/dist/jquery.js
 //= ../bower/slick-carousel/slick/slick.js
+//= ../bower/jquery-mask-plugin/dist/jquery.mask.js
 
 'use strict'
 $(document).ready(function(){
@@ -41,6 +42,11 @@ $(document).ready(function(){
 				.siblings()
 				.removeClass('member__item_active');
 		});
+	})();
+
+// mask
+	(function () {
+		$('.order__phone').mask('+7 (000) 000-00-00');
 	})();
 
 // accordion

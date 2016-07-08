@@ -3,6 +3,7 @@
   "dependencies": {
     "jquery": "1.12.3",
     "slick-carousel": "slick.js#^1.6.0",
-    "normalize-css": "normalize.css#^4.2.0"
+    "normalize-css": "normalize.css#^4.2.0",
+    "jquery-mask-plugin": "jQuery-Mask-Plugin#^1.14.0"
   }
 }
