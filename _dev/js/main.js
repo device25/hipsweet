@@ -19,7 +19,6 @@ $(document).ready(function(){
 		    $('body').animate({
 		    	scrollTop: $(element).offset().top}, 1000
 		    );
-		    console.log(element);
 		    return false;
 		});
 	})();
