@@ -83,7 +83,7 @@ $(document).ready(function(){
 			});
 			myPlacemark = new ymaps.Placemark([59.89881837601091,30.394691876674624], {},{ 
 				iconLayout: 'default#image',
-        		iconImageHref: '../img/placemark.png',
+        		iconImageHref: 'img/placemark.png',
         		iconImageSize: [42, 59]
         	});
         	myMap.geoObjects.add(myPlacemark);
