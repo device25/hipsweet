@@ -77,11 +77,11 @@ $(document).ready(function(){
 
 		function init(){     
 			myMap = new ymaps.Map("map", {
-				center: [59.89881837601091,30.394691876674624],
+				center: [59.90381837601091,30.538691876674624],
 				zoom: 12,
 				controls: []
 			});
-			myPlacemark = new ymaps.Placemark([59.89881837601091,30.394691876674624], {},{ 
+			myPlacemark = new ymaps.Placemark([59.90371837601091,30.394691876674624], {},{ 
 				iconLayout: 'default#image',
         		iconImageHref: 'img/placemark.png',
         		iconImageSize: [42, 59]
