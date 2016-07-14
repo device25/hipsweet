@@ -54,17 +54,12 @@ $(document).ready(function(){
 			e.preventDefault();
 			var 
 				$this = $(this),
-				container = $this.closest('.faq__list'),
 				item = $this.closest('.faq__item');
 
-			if (!item.hasClass('active')) {
-				item
-					.addClass('active')
-					.siblings()
-					.removeClass('active');
-			} else {
-				item.removeClass('active');
-			}
+			item
+				.addClass('active')
+				.siblings()
+				.removeClass('active');
 		});
 	})();
 

@@ -3,6 +3,7 @@
 	background-size: cover;
 	padding-top: 80px;
 	padding-bottom: 60px;
+	min-height: 757px;
 }
 .title_faq {
 	text-align: center;
@@ -36,6 +37,9 @@
 		margin-right: 125px;
 		margin-bottom: 20px;
 	}
+}
+.faq__link {
+	display: block;
 }
 .question {
 	font-weight: normal;

@@ -12,10 +12,12 @@
 	margin-bottom: 10px;
 }
 .supply__desc {
-	color: #883213;
-	padding: 0 10%;
-	a {
-		color: #393939;
+	p {
+		color: #883213;
+		padding: 0 10%;
+		a {
+			color: #393939;
+		}
 	}
 }
 .supply__list {
@@ -41,9 +43,22 @@
 	line-height: 40px;
 	margin-bottom: 10px;
 }
+.supply__img {
+	margin: auto;
+	height: 256px;
+	width: 220px;
+	background-size: contain;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	img {
+		display: none;
+	}
+}
 .supply__item-desc {
-	color: #ab594a;
-	font-size: 14px;
-	line-height: 18px;
-	padding: 0 9%;
+	p {
+		color: #ab594a;
+		font-size: 14px;
+		line-height: 18px;
+		padding: 0 9%;
+	}
 }

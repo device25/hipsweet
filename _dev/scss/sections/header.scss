@@ -13,9 +13,14 @@
 	width: 28%;
 	padding-left: 22px;
 }
+.logo {
+	display: block;
+	text-decoration: none;
+}
 .logo__img {
 	display: inline-block;
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	vertical-align: middle;
 	width: 80px;
 	height: 66px;
@@ -52,9 +57,11 @@
 	&:hover {
 		.menu__link {
 			color: #ffaf28;
+			transition: 0.3s;
 			&:after {
 				border-right-color: #ffaf28;
 				border-bottom-color: #ffaf28;
+				transition: 0.3s;
 			}
 		}
 		.menu__link_has-dropdown {
@@ -63,6 +70,7 @@
 				border-top: 1px solid #ffaf28;
 				border-right: none;
 				border-bottom: none;
+				transition: 0.3s;
 			}
 		}
 		.menu__dropdown {
@@ -74,6 +82,7 @@
 	color: #fff;
 	text-decoration: none;
 	display: block;
+	transition: 0.3s;
 }
 .menu__link_has-dropdown {
 	&:after {
@@ -86,6 +95,7 @@
 		transform: rotate(45deg);
 		margin-left: 12px;
 		margin-bottom: 2px;
+		transition: 0.3s;
 	}
 }
 .menu__dropdown {
@@ -163,8 +173,10 @@
 	background-image: url(../img/header-sprite.png);
 	background-repeat: no-repeat;
 	display: block;
+	transition: 0.3s;
 	&:hover {
 		background-color: #641a00;
+		transition: 0.3s;
 	}
 }
 .icons__link_person {

@@ -36,16 +36,23 @@
 	padding: 16px 27px 28px;
 	border-radius: 20px;
 	position: relative;
+	transition: 0.3s;
 	&:hover {
 		cursor: pointer;
 		background-color: #893213;
+		transition: 0.3s;
 		.member__name {
 			color: #ffa92b;
+			transition: 0.3s;
 		}
 		.member__position {
 			color: #fff;
+			transition: 0.3s;
 		}
 	}
+}
+.team__nav-link {
+	display: block;
 }
 .member__name {
 	display: inline-block;
@@ -54,10 +61,12 @@
 	color: #2b2f60;
 	line-height: 36px;
 	margin-bottom: 6px;
+	transition: 0.3s;
 }
 .member__position {
 	color: #8d8d8d;
 	letter-spacing: 0.8px;
+	transition: 0.3s;
 }
 .nav-member_active {
 	background-color: #893213;
@@ -177,6 +186,7 @@
 		border: none;
 		padding: 16px 0;
 		width: 100%;
+		outline: none;
 	}
 }
 .order__submit {
@@ -190,6 +200,7 @@
 	border-radius: 50%;
 	transform: translate(40%, 36%);
 	outline: none;
+	transition: 0.3s;
 	&:before {
 		position: absolute;
 		display: block;
@@ -199,6 +210,7 @@
 		width: 23px;
 		height: 29px;
 		background-color: #9d5125;
+		transition: 0.3s;
 	}
 	&:after {
 		position: absolute;
@@ -209,15 +221,19 @@
 		border-bottom: 25px solid transparent;
 		right: 18px;
 		bottom: 21px;
+		transition: 0.3s;
 	}
 	&:hover {
 		background-color: #641a00;
 		cursor: pointer;
+		transition: 0.3s;
 		&:after {
 			border-left-color: #ffae28;
+			transition: 0.3s;
 		}
 		&:before {
 			background-color: #ffae28;
+			transition: 0.3s;
 		}
 	}
 }

@@ -49,7 +49,7 @@ var config = {
 		server: {
 			baseDir: "prod"
 		},
-		tunnel: true,
+		tunnel: 'hipsweet',
 		browser: 'Google Chrome',
 		open: 'tunnel'
 	};

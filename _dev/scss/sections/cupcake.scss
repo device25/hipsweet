@@ -1,13 +1,14 @@
 .cupcake {
 	background: linear-gradient(to right,  #cd3438 0%,#a3161c 100%);
 	padding-top: 25px;
-	padding-bottom: 9px;
+	padding-bottom: 50px;
 }
 .cupcake__slide {
 	color: #fff;
 	position: relative;
 	z-index: 1;
 	font-size: 0;
+	outline: none;
 }
 .slide__left,
 .slide__center,
@@ -119,10 +120,10 @@
 }
 .slide__img {
 	margin: auto;
-	margin-top: 18px;
 	background-position: 50%;
-    background-size: cover;
-    height: 490px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 508px;
     width: 390px;
     img {
     	display: none;
@@ -152,10 +153,12 @@
 	margin-bottom: 23px;
 }
 .cupcake__desc {
-	font-size: 15px;
-	line-height: 21px;
-	margin-bottom: 20px;
-	word-spacing: -1px;
+	p {
+		font-size: 15px;
+		line-height: 21px;
+		margin-bottom: 20px;
+		word-spacing: -1px;
+	}
 }
 .cupcake__price {
 	font-family: malina;
@@ -173,8 +176,10 @@
 	font-weight: bold;
 	padding: 10px 20px;
 	border-radius: 25px;
+	transition: 0.3s;
 	&:hover {
 		color: $yellow;
 		background-color: #641a00;
+		transition: 0.3s;
 	}
 }

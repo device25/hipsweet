@@ -13,8 +13,11 @@
     	url('../fonts/slick/slick.ttf') format('truetype'),
     	url('../fonts/slick/slick.svg#slick') format('svg');
 }
+.slick-dotted.slick-slider {
+    margin-bottom: 60px;
+}
 .slick-dots {
-	bottom: 11px;
+	bottom: -60px;
 }
 .slick-dots li {
 	margin: 0 10px;
@@ -24,9 +27,11 @@
 	color: #fff;
 	opacity: 1;
 	line-height: 14px;
+	transition: 0.3s;
 }
 .slick-dots li button:hover:before {
 	color: #641a00;
+	transition: 0.3s;
 }
 .slick-dots li.slick-active button:before {
 	color: $yellow;
